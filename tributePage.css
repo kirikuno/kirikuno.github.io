@@ -1,0 +1,33 @@
+#main{
+    background-color: #cccc;
+    text-align: center;
+}
+
+#img-div{
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%; 
+}
+
+#title{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+ul, #quote{
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%; 
+}
+
+#tribute-link{
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }

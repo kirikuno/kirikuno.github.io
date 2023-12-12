@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="productLandingPage.css">
+    <script type="text/javascript" src="Events_JavaScript.js"></script>
+</head>
+
+<body>
+    <header>
+      <div id="header">
+        <figure id="header-img">
+            <img style="width: 300px; height: auto;" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Logo of original trombones">    
+        </figure>
+        <div style="width: 30%; height: auto;"></div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="container">
+    
+    <section id="form">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required> <br>
+            <input type="submit" id="submit" value="get started" style="text-transform: uppercase;">
+        </form>
+    </section>
+    
+    <section id="features">
+        <div id="material">
+            <span><img class="icon" src="fire.png" alt="fire"></span>
+            <div id="material-content">
+              <h2>Premium Materials</h2>
+              <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </div>
+        <div id="shipping">
+            <span><img class="icon" src="shipping.png" alt="shipping"></span>
+            <div id="shipping-content">
+              <h2>Fast Shipping</h2>
+              <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+        <div id="quality">
+            <span><img class="icon" src="samurai.png" alt="samurai"></span>
+            <div id="quality-content">
+              <h2>Quality Assurance</h2>
+              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <!--<video width="500" height="315" autoplay controls>
+            <source src="He's a Pirate.mp4" type="video/mp4">
+        </video>-->
+        <iframe id="video" width="500" height="315" 
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="">
+        </iframe>
+    </section>
+
+    <section id="pricing">
+        <div id=tenor>
+            <div id="tenor-trombone"><p>TENOR TROMBONE</p></div><br>
+            <p class="price">$600</p><br>
+            <p class="product-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem odit enim quo, blanditiis temporibus dolorem repellat nihil! Eius nulla ipsum dolorem nemo! Illo doloremque quisquam, nam ratione quibusdam repellendus placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel id dignissimos consequuntur maxime quos nisi magni voluptatem praesentium dolorem consectetur voluptatum, quasi eum consequatur veritatis sint soluta aliquam commodi deserunt.</p>
+            <input onclick="showProduct()" class="select" type="submit" value="SELECT">
+        </div>
+        <div id=bass>
+            <div id="bass-trombone"><p>BASS TROMBONE</p></div><br>
+            <p class="price">$900</p><br>
+            <p class="product-info">lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias neque officia dolore quae voluptates corporis iusto quos tenetur laudantium voluptas, non obcaecati quam dolorem placeat ullam repellendus exercitationem fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quod rerum magni soluta rem doloremque eum ipsum nostrum tempore non reiciendis, nulla iste reprehenderit, totam corrupti error iusto alias facilis.</p>
+            <input onclick="showProduct()" class="select" type="submit" value="SELECT">
+        </div>
+        <div id=valve>
+            <div id="valve-trombone"><p>VALVE TROMBONE</p></div><br>
+            <p class="price">$1200</p><br>
+            <p class="product-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo, iste excepturi soluta eligendi error laboriosam minus quas in magni obcaecati mollitia porro est id, itaque cupiditate? Cumque, tempora temporibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque sint totam deleniti unde eos voluptates aliquam doloremque, numquam et, natus illum voluptatum minus quae vel id accusamus repellendus nostrum! Porro?</p>
+            <input onclick="showProduct()" class="select" type="submit" value="SELECT">
+        </div>
+    </section>
+
+    </div>
+
+    <footer>
+       <ul>
+           <li><a href="#">Privacy</a></li>
+           <li><a href="#">Terms</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+       <div><p>Copyright &copy;2016, Original Trombones</p></div> 
+    </footer>
+</body>
+
+</html>
